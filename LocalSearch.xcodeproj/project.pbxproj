@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6F72422923B12FE100990210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72422823B12FE100990210 /* AppDelegate.swift */; };
 		6F72422B23B12FE100990210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72422A23B12FE100990210 /* SceneDelegate.swift */; };
 		6F72422E23B12FE100990210 /* LocalSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F72422C23B12FE100990210 /* LocalSearch.xcdatamodeld */; };
-		6F72423023B12FE100990210 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72422F23B12FE100990210 /* ContentView.swift */; };
+		6F72423023B12FE100990210 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72422F23B12FE100990210 /* MainController.swift */; };
 		6F72423223B12FE200990210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F72423123B12FE200990210 /* Assets.xcassets */; };
 		6F72423523B12FE200990210 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F72423423B12FE200990210 /* Preview Assets.xcassets */; };
 		6F72423823B12FE200990210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F72423623B12FE200990210 /* LaunchScreen.storyboard */; };
 		6F72424323B12FE300990210 /* LocalSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72424223B12FE300990210 /* LocalSearchTests.swift */; };
 		6F72424E23B12FE300990210 /* LocalSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72424D23B12FE300990210 /* LocalSearchUITests.swift */; };
+		6F72425C23B130A800990210 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72425B23B130A800990210 /* ContentView.swift */; };
+		6F72425F23B1312C00990210 /* LBTATools in Frameworks */ = {isa = PBXBuildFile; productRef = 6F72425E23B1312C00990210 /* LBTATools */; };
+		6F72426123B131FB00990210 /* MKMapItem_Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72426023B131FB00990210 /* MKMapItem_Address.swift */; };
+		6F72426323B1324A00990210 /* CardMapItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72426223B1324A00990210 /* CardMapItemViewController.swift */; };
+		6F72426523B132D000990210 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72426423B132D000990210 /* SelfConfiguringCell.swift */; };
+		6F72426723B132F500990210 /* CardMapItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72426623B132F500990210 /* CardMapItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,7 @@
 		6F72422823B12FE100990210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F72422A23B12FE100990210 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6F72422D23B12FE100990210 /* LocalSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocalSearch.xcdatamodel; sourceTree = "<group>"; };
-		6F72422F23B12FE100990210 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F72422F23B12FE100990210 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		6F72423123B12FE200990210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F72423423B12FE200990210 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F72423723B12FE200990210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,11 @@
 		6F72424923B12FE300990210 /* LocalSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F72424D23B12FE300990210 /* LocalSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchUITests.swift; sourceTree = "<group>"; };
 		6F72424F23B12FE300990210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F72425B23B130A800990210 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F72426023B131FB00990210 /* MKMapItem_Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapItem_Address.swift; sourceTree = "<group>"; };
+		6F72426223B1324A00990210 /* CardMapItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMapItemViewController.swift; sourceTree = "<group>"; };
+		6F72426423B132D000990210 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		6F72426623B132F500990210 /* CardMapItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMapItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F72425F23B1312C00990210 /* LBTATools in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +115,10 @@
 			children = (
 				6F72422823B12FE100990210 /* AppDelegate.swift */,
 				6F72422A23B12FE100990210 /* SceneDelegate.swift */,
-				6F72422F23B12FE100990210 /* ContentView.swift */,
+				6F72425B23B130A800990210 /* ContentView.swift */,
+				6F72426A23B13A6C00990210 /* Controllers */,
+				6F72426823B13A5700990210 /* Cells */,
+				6F72426923B13A6200990210 /* Extensions */,
 				6F72423123B12FE200990210 /* Assets.xcassets */,
 				6F72423623B12FE200990210 /* LaunchScreen.storyboard */,
 				6F72423923B12FE300990210 /* Info.plist */,
@@ -139,6 +154,32 @@
 			path = LocalSearchUITests;
 			sourceTree = "<group>";
 		};
+		6F72426823B13A5700990210 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6F72426623B132F500990210 /* CardMapItemCell.swift */,
+				6F72426423B132D000990210 /* SelfConfiguringCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6F72426923B13A6200990210 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6F72426023B131FB00990210 /* MKMapItem_Address.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6F72426A23B13A6C00990210 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F72422F23B12FE100990210 /* MainController.swift */,
+				6F72426223B1324A00990210 /* CardMapItemViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,6 +196,9 @@
 			dependencies = (
 			);
 			name = LocalSearch;
+			packageProductDependencies = (
+				6F72425E23B1312C00990210 /* LBTATools */,
+			);
 			productName = LocalSearch;
 			productReference = 6F72422523B12FE100990210 /* LocalSearch.app */;
 			productType = "com.apple.product-type.application";
@@ -227,6 +271,9 @@
 				Base,
 			);
 			mainGroup = 6F72421C23B12FE000990210;
+			packageReferences = (
+				6F72425D23B1312C00990210 /* XCRemoteSwiftPackageReference "LBTATools" */,
+			);
 			productRefGroup = 6F72422623B12FE100990210 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -271,8 +318,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F72422E23B12FE100990210 /* LocalSearch.xcdatamodeld in Sources */,
+				6F72426523B132D000990210 /* SelfConfiguringCell.swift in Sources */,
+				6F72426323B1324A00990210 /* CardMapItemViewController.swift in Sources */,
+				6F72425C23B130A800990210 /* ContentView.swift in Sources */,
+				6F72426123B131FB00990210 /* MKMapItem_Address.swift in Sources */,
 				6F72422923B12FE100990210 /* AppDelegate.swift in Sources */,
-				6F72423023B12FE100990210 /* ContentView.swift in Sources */,
+				6F72423023B12FE100990210 /* MainController.swift in Sources */,
+				6F72426723B132F500990210 /* CardMapItemCell.swift in Sources */,
 				6F72422B23B12FE100990210 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,6 +650,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F72425D23B1312C00990210 /* XCRemoteSwiftPackageReference "LBTATools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bhlvoong/LBTATools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F72425E23B1312C00990210 /* LBTATools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F72425D23B1312C00990210 /* XCRemoteSwiftPackageReference "LBTATools" */;
+			productName = LBTATools;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		6F72422C23B12FE100990210 /* LocalSearch.xcdatamodeld */ = {
